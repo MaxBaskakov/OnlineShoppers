@@ -99,4 +99,4 @@ Probability: 72.35%
 
 * **Core:** Python, NumPy, Pandas
 * **ML Pipeline:** Scikit-learn, XGBoost
-* **Visualization:** Matplotlib, Seaborn
+* **Visualization:** Matplotlib
