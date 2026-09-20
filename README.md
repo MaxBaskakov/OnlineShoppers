@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ### 2. Run the pipeline
 
 ```bash
-python online_shoppers.py
+python main.py
 ```
 
 *The script automatically handles data preprocessing, model tuning, evaluation, and saves performance plots to the `plots/` directory.*
