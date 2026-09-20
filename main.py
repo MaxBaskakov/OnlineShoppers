@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
@@ -12,10 +11,11 @@ import json
 import matplotlib.pyplot as plt
 from sklearn.metrics import ConfusionMatrixDisplay
 
+
 data = pd.read_csv("online_shoppers_intention.csv")
 data.info()
 
-data["Weekend"] =data["Weekend"].map({True: 1, False: 0})
+data["Weekend"] = data["Weekend"].map({True: 1, False: 0})
 data_train, data_val = train_test_split(data, test_size=0.4, random_state=42)
 data_val, data_test = train_test_split(data_val, test_size=0.5, random_state=42)
 
